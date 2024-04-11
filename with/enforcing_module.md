@@ -3,7 +3,7 @@
 As shown in Table 1, we observed a noticeable drop in path explanation performance when the path-enforcing module was removed. This behaviour is expected since there is no strengthening on the impact of paths when explanations are generated without path-enforcing. We expect the gap to be more significant for denser graphs.
 
 
-| | | FB15K-237   | | |
+##### FB15K-237
 | Model                 | Fidelity+ | Fidelity- | Avg Sparsity | Hit ΔRank: 1 Path | Hit ΔRank: 3 Paths | Hit ΔRank: 5 Paths |
 |-----------------------|-----------|-----------|--------------|-------------------|--------------------|--------------------|
 | RGCN-DistMult-MI      | 0.356     | 0.168     | 0.834        | 0.173             | 0.308              | 0.396              |
