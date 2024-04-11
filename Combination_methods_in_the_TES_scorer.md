@@ -17,3 +17,4 @@ As in Table 2, it can be found that using the Euclidean combination method yield
 | FB15K-237            | *WGCN + TransE-concat  | **0.775**   | **0.150**     | **0.753**        | 0.376             | **0.582**              | 0.648              |
 | FB15K-237            | *WGCN + DistMult-concat| 0.646    | **0.294**     | **0.672**        | **0.629**             | **0.772**              | **0.836**              |
 | FB15K-237            | *WGCN + ConvE-concat   | 0.416    | **0.287**     | **0.720**        | **0.474**             | 0.646              | **0.762**              |
+Table 2: Ablation study on the combination methods in TES. The asterisk * indicates the original  results from our paper.

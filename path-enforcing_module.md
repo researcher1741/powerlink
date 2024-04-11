@@ -12,3 +12,4 @@ As shown in Table 1, we observed a noticeable drop in path explanation performan
 | *RGCN-DistMult      | **0.377**| 0.186     | 0.784        | **0.234**         | **0.354**      | **0.432**      |
 | *WGCN-DistMult      | **0.646**| **0.294** | **0.672**    | **0.629**         | **0.772**      | **0.836**      |
 | *CompGCN-DistMult   | **0.043**| **0.025** | 0.506        | **0.092**         | **0.170**      | **0.220**      |
+Table 1: Ablation study on the path-enforcing module. -MI indicates the model was explained with mutual information loss only. The asterisk * indicates the original results from our paper.
